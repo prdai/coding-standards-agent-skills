@@ -1,0 +1,14 @@
+{
+  "name": "coding-standards",
+  "version": "1.0.0",
+  "description": "Enforces language-specific coding standards using curated style guides for Python, TypeScript, JavaScript, Go, Rust, and C/C++.",
+  "date": "February 2026",
+  "references": [
+    "https://raw.githubusercontent.com/google/styleguide/refs/heads/gh-pages/pyguide.md",
+    "https://eslint-config.antfu.me/rules",
+    "https://raw.githubusercontent.com/uber-go/guide/refs/heads/master/style.md",
+    "https://rust-lang.github.io/api-guidelines/print.html",
+    "https://llvm.org/docs/CodingStandards.html",
+    "https://raw.githubusercontent.com/airbnb/javascript/refs/heads/master/README.md"
+  ]
+}
