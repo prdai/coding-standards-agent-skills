@@ -1,6 +1,7 @@
 ---
 name: coding-standards
-description: Enforces language-specific coding standards and style guides. Use when the user asks to review code, fix style, apply best practices, lint, refactor for readability, or follow a style guide. Supports Python, TypeScript, JavaScript, Go, Rust, and C/C++.
+description: Enforce language-specific coding standards (Python/TS/JS/Go/Rust/C/C++) + PR/commit conventions.
+license: Apache-2.0
 ---
 
 # Coding Standards
@@ -30,15 +31,9 @@ Use the fetched guide as your reference to do what the user asked — whether th
 
 Always cite the specific rule or section from the guide when making suggestions.
 
-## Commit linting (optional)
+## Commit messages
 
-If the user asks about enforcing commit message standards, run:
-
-```bash
-bash scripts/setup-commitlint.sh
-```
-
-This installs [commitlint](https://commitlint.js.org) with Conventional Commits and sets up a `commit-msg` git hook. The config lives in `.commitlintrc`.
+When writing commit messages, follow Conventional Commits:
 
 Commit messages must be:
 

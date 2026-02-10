@@ -11,8 +11,6 @@ Detects your project language and applies the right style guide:
 - **Rust** — Rust API Guidelines
 - **C/C++** — LLVM Coding Standards
 
-Also includes optional commit message linting via commitlint + Conventional Commits.
-
 ## Install
 
 ```bash
@@ -22,16 +20,6 @@ npx skills add prdai/coding-standards-agent-skills
 ## Usage
 
 Once installed, the skill activates automatically when your AI agent is asked to review code, fix style, apply best practices, or follow a style guide.
-
-## Commit linting
-
-To set up commitlint with a `commit-msg` git hook:
-
-```bash
-bash scripts/setup-commitlint.sh
-```
-
-Detects your package manager (npm/pnpm/yarn/bun), installs `@commitlint/cli` + `@commitlint/config-conventional`, and hooks it up.
 
 ## License
 
