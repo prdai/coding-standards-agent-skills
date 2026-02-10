@@ -1,6 +1,6 @@
 # coding-standards
 
-A Claude Code agent skill that enforces language-specific coding standards.
+An agent skill that enforces language-specific coding standards. Built for [skills.sh](https://skills.sh).
 
 Detects your project language and applies the right style guide:
 
@@ -16,18 +16,12 @@ Also includes optional commit message linting via commitlint + Conventional Comm
 ## Install
 
 ```bash
-npx skills add coding-standards-agent-skills
+npx skills add prdai/coding-standards-agent-skills
 ```
 
 ## Usage
 
-Once installed, the skill activates automatically when you ask Claude Code to review code, fix style, apply best practices, or follow a style guide.
-
-You can also invoke it directly:
-
-```
-/coding-standards
-```
+Once installed, the skill activates automatically when your AI agent is asked to review code, fix style, apply best practices, or follow a style guide.
 
 ## Commit linting
 
@@ -41,4 +35,4 @@ Detects your package manager (npm/pnpm/yarn/bun), installs `@commitlint/cli` + `
 
 ## License
 
-[MIT](LICENSE)
+[Apache 2.0](LICENSE)
